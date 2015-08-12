@@ -1,5 +1,6 @@
 # nativetray
 
+A Java TrayIcon library that allows you to use Gtk if supported on Linux to get past the [background issue in Java's TrayIcon](http://bugs.java.com/bugdatabase/view_bug.do?bug_id=6453521), which likely won't be fixed any time soon.
 
 Usage
 =====
