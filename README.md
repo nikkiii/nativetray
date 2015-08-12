@@ -5,6 +5,8 @@ A Java TrayIcon library that allows you to use Gtk if supported on Linux to get 
 Usage
 =====
 
+Note: TrayIcon in this example is in package org.nikkii.jtray, while PopupMenu and MenuItem are java.awt
+
 ```java
 TrayIcon icon = new TrayIcon(ImageIO.read(new File("icon.png")));
 
